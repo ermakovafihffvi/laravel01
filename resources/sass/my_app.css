@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+html {
+  height: 100%;
+  font-family: Mulish;
+  font-weight: 200;
+
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+h1 {
+  font-family: 'Permanent Marker';
+  font-weight: 400;
+  font-size: 82px !important;
+  color: #d73d6c;
+}
+
+h2 {
+  font-family: Mulish;
+  font-weight: 400;
+  font-size: 3em;
+  color: #d73d6c;
+}
+
+h3 {
+  font-family: Mulish;
+  font-size: 2em;
+}
+h4{
+  font-family: Mulish;
+  font-weight: 400;
+  color: #d73d6c;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+
+p {
+  font-family: Mulish;
+  font-size: 2em;
+}
+
+.auth h3 {
+  line-height: 42px;
+}
+
+.auth h3 a {
+  font-weight: 200;
+  line-height: inherit;
+  transition-duration: 0.5s;
+}
+
+.auth_box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth_box .auth {
+  text-align: center;
+  width: 280px;
+  height: 42px;
+  border-radius: 15px;
+  transition-duration: 0.5s;
+}
+
+.auth_box .auth:hover {
+  background-color: #d57276;
+}
+
+.auth_box .auth:active {
+  background-color: #d73d6c;
+}
+
+.search {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.search form input {
+  width: 280px;
+  height: 36px;
+  text-align: center;
+}
+
+.search .icon_place {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d73d6c;
+  width: 30px;
+  height: 36px;
+  text-align: center;
+  color: #d6c2bc;
+  border-top: 2px solid;
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+  transition-duration: 0.5s;
+}
+
+.search .icon_place:hover {
+  background-color: #d57276;
+}
+
+.search .icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  stroke-width: 0;
+  stroke: #65b2c6;
+  fill: #65b2c6;
+}
+
+.wrap {
+  width: 100%;
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #d6c2bc !important;
+}
+
+header {
+  height: 165px;
+  background-color: #c0cccc;
+  display: grid;
+  grid-template-columns: 5fr 3fr;
+}
+
+header a.title {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  text-align: center;
+  line-height: 159px;
+}
+
+.container_m {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #d6c2bc;
+  padding-bottom: 36px;
+}
+
+.cont {
+  width: 1140px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.cont h3 {
+  font-style: italic;
+  font-weight: 300;
+}
+
+footer {
+  flex-shrink: 0;
+  height: 100px;
+  background-color: #65b2c6;
+}
+
+.icon-ar {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  stroke-width: 0;
+  stroke: #d73d6c;
+  fill: #d73d6c;
+}

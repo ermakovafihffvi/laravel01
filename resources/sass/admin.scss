@@ -1,0 +1,73 @@
+.admin_v{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.news_list_admin{
+    margin-top: 10px !important;
+    margin-bottom: 50px;
+}
+
+.left_menu_box{
+    height: fit-content;
+
+}
+
+.left_menu{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0 !important;
+    li {
+        border-radius: 10px;
+        padding: 3px;
+        text-align: center;
+        margin-bottom: 3px;
+    }
+}
+
+.main_cnt{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.item_admin{
+    position: static !important;
+    z-index: 0 !important;
+}
+.list_item_admin{
+    width: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.update_box{
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    width: 400px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.category_item_admin{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 185px;
+    margin-bottom: 40px;
+    .item_title{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        height: 50px;
+        text-align: center;
+        background-color: aliceblue;
+    }
+}
+
+.category_up_box{
+    align-self: center;
+    flex-direction: column;
+}
